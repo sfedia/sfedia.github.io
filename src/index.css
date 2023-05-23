@@ -35,7 +35,7 @@ body {
 }
 .contact {
     padding-left: 25px;
-    background-image: url(src/envelope.svg);
+    background-image: url(envelope.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
