@@ -43,7 +43,42 @@
           <a href="https://leetcode.com/sfedia" class="cv-link">LEETCODE</a>
         </span>
       </div>
+      <br><br>
+      <button type="button" class="collapsible">Project ideas</button>
+      <div class="collapsible-content">
+        <p>
+          <p>
+            Here, whenever possible, I collect ideas that seem interesting to me for implementation, but for some reason I haven't had time to tackle them alone yet.<br>
+            If you think some of them are interesting, I'll be happy to work on it together.
+          </p>
+          <section class="idea">Add time & presupposition support into nltk.sem.drt</section>
+          <p class="idea-content">
+            <ul>
+              <li>Previously, I debugged and enhanced an extension which adds time/presupposition support to nltk-drt, under supervision of Ivan Rygaev: <a href="https://github.com/sfedia/nltk-drt">https://github.com/sfedia/nltk-drt</a></a></li>
+              <li>It would be nice to submit a PR to the official <a href="https://github.com/nltk/nltk">nltk</a> repository - this will be a good contribution to the library!</li>
+            </ul>
+          </p>
+          <section class="idea">Dockerized app for OCRing minor languages</section>
+          <p class="idea-content">
+            <ul>
+              <li>It seems that using Tesseract in legacy mode allows to learn OCR very fast on a specific font of a minor language: on average 4-5 pages are enough to achieve 95% recognition accuracy.</li>
+              <li>This technique is successfully applied to books in Naukan, we've already recognized three books so far: <a href="https://github.com/sfedia/naukan-ocr">https://github.com/sfedia/naukan-ocr</a></li>
+              <li>What if one would create a Docker app which would automate the whole process from making boxes to text recognition?</li>
+            </ul>
+          </p>
+        </p>
+      </div>
 
     </div>
+
+    <script>
+      Array.from(document.getElementsByClassName("collapsible")).forEach((el, i) => {
+        el.addEventListener("click", function() {
+          this.classList.toggle("active");
+          let content = this.nextElementSibling;
+          content.style.display = (content.style.display === "block" ? "none" : "block");
+        });
+      });
+    </script>
   </body>
 </html>
