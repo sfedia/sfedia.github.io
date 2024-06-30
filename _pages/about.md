@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a Computational Linguistics student at Saarland University, currently serving as a research assistant at [the Machine Translation Group at DFKI](https://www.dfki.de/en/web/research/research-departments/multilinguality-and-language-technology/). I previously interned at Yandex as a software engineer.
+I'm Fedor, a Computational Linguistics student at Saarland University.
+
+I am currently serving as a research assistant at [the Machine Translation Group at DFKI](https://www.dfki.de/en/web/research/research-departments/multilinguality-and-language-technology/). Previously, I interned at Yandex as a software engineer.
 
 My research interests lie in the domains of natural language understanding, machine translation, and natural language representation.
