@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Fedor Sizov"
-title_separator          : ""
+title_separator          : "\\|"
 name                     : &name "Fedor Sizov"
 description              : &description "Fedor Sizov"
 url                      : https://sfedia.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
