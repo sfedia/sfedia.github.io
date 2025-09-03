@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I'm Fedor, a Computational Linguistics student at Saarland University.
+Hi, I’m Fedor, a bachelor’s student in Natural Language Processing at Saarland University.
 
-I am currently serving as a research assistant at [the Machine Translation Group at DFKI](https://www.dfki.de/en/web/research/research-departments/multilinguality-and-language-technology/). Previously, I interned at Yandex as a software engineer.
+I currently work as a Machine Learning Engineer at [natif.ai](https://natif.ai/) and as a research assistant at [the Machine Translation Group at DFKI](https://www.dfki.de/en/web/research/research-departments/multilinguality-and-language-technology/). Previously, I interned at Yandex as a software engineer.
 
-My research interests lie in the domains of natural language understanding, machine translation, and natural language representation.
+I’m particularly interested in multilingual capabilities of large language models, as well as reasoning and model interpretability.
